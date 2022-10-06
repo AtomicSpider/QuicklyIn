@@ -15,7 +15,7 @@ readme_list = list()
 
 for readme_path in readme_paths:
     readme_list.append(
-        f'- [{readme_path.parent.name}]({quote(str(readme_path))})')
+        f'- [{readme_path.parent.name}]({quote(str(readme_path.parent))})')
 
 readme_list = '\n'.join(readme_list)
 
